@@ -1,0 +1,57 @@
+
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://t3.ftcdn.net/jpg/06/30/18/80/360_F_630188009_imkknmuaOXUpXExgCbqhOqKbd4hqmKCY.jpg');
+    background-size: 1920px 1080px;
+    background-position: center;
+    background-size: cover;
+    filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  z-index: 2;
+      text-align: center;
+    color: rgb(33, 167, 204);
+}
+@media screen and (max-width:820)  {
+    #hero{
+        flex-direction: column-reverse;
+    }
+    
+}
+
+#Destination{
+    height: 100vh;
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px ;
+    padding-top: 40px;
+
+}
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background-color: rgb(252, 234, 170); /* Optional: Adds a slight background to the content to enhance readability */
+    color: #fff; /* Optional: Ensure text is readable over the background */
+}
+#logo{
+    font-family: "Playwrite ES Deco", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 12px
+
+}
