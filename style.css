@@ -55,3 +55,61 @@
   font-size: 12px
 
 }
+/* Tours Section Styling */
+.tours{
+    background-color: rgba(255, 183, 0, 0.39);
+
+}
+.tours .card-header {
+    background-color: #f9e678;
+}
+
+.tours .btn-link {
+    text-decoration:navajowhite;
+    color: #007bff;
+    font-size: 1.25rem;
+}
+
+.tours .btn-link:hover {
+    text-decoration:navajowhite;
+    color: #0056b3;
+}
+
+.tours .card-body {
+    background-color: #fbe5c5;
+    color: #000000;
+}
+
+.tours .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.tours .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Form Section Styling */
+.contact-form {
+    background-color: #ecf0ce;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.contact-form h2 {
+    color: #007bff;
+}
+
+.contact-form .form-group label {
+    color: #333;
+}
+
+.contact-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #0056b3;
+}
+
